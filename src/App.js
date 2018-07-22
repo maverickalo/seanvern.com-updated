@@ -8,6 +8,7 @@ import AboutMe from "./Components/About/AboutMe";
 import FrontPageImage from "./Components/FrontImage/FrontPageImage";
 import Recent from "./Components/Footer/RecentProjects";
 import Connect from "./Components/Footer/Connect";
+import media from "./Styles/media";
 import Menu from "./Components/Heading/Menu";
 
 class App extends Component {
@@ -16,6 +17,7 @@ class App extends Component {
       display: flex;
       flex-direction: row;
       justify-content: space-between;
+      ${media.tablet`flex-direction: column;`};
     `;
     const Title = styled.div`
       display: flex;
@@ -27,6 +29,7 @@ class App extends Component {
       margin-left: 2rem;
       margin-right: 2rem;
       margin-bottom: 2rem;
+      ${media.tablet`flex-direction: column`};
     `;
 
     return (

@@ -1,4 +1,5 @@
 import { keyframes } from "styled-components";
+import media from "./media";
 import styled from "styled-components";
 
 export const fadeIn = keyframes`
@@ -21,7 +22,8 @@ export const TopList = styled.li`
   letter-spacing: 0.1rem;
   margin-top: 1rem;
   transition: 1s ease;
-
+  ${media.tablet`text-align: center; width: auto; font-size: 1.5rem`};
+  ${media.phone`font-size: 1.2rem`};
   &:after {
     display: block;
     content: "";

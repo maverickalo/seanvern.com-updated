@@ -1,4 +1,5 @@
 import styled from "styled-components";
+import media from "../../Styles/media";
 
 export const ProjectHeadingContainer = styled.div`
   display: flex;
@@ -8,6 +9,7 @@ export const ProjectHeadingContainer = styled.div`
   margin-bottom: 2rem;
   margin-left: 2rem;
   margin-right: 2rem;
+  ${media.phone`margin-top: 2rem; justify-content: center; margin-bottom: 0;`};
 `;
 export const ProjectHeadingText = styled.h1`
   font-size: 2rem;
@@ -27,6 +29,7 @@ export const ProjectContainer = styled.div`
   justify-content: space-between;
   &:last-child {
     margin-bottom: 6rem;
+    ${media.phone`margin-bottom: 0;`};
   }
 `;
 export const ExampleBox = styled.div`
