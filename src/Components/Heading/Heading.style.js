@@ -1,4 +1,4 @@
-import styled, { css } from "styled-components";
+import styled from "styled-components";
 import media from "../../Styles/media";
 
 import { fadeIn } from "../../Styles/Transitions";
@@ -6,7 +6,7 @@ import { fadeIn } from "../../Styles/Transitions";
 export const Header = styled.div`
   display: flex;
   flex-direction: column;
-  animation: ${fadeIn} 2s linear;
+  animation: ${fadeIn} 0.5s linear;
 
   & h1:first-child {
     margin-top: 2rem;

@@ -25,11 +25,7 @@ const Connect = () => {
             itemText="GITHUB"
             externalLink="https://github.com/maverickalo"
           />
-          <MenuItem
-            left
-            itemText="EMAIL"
-            externalLink="https://twitter.com/YogaVern"
-          />
+          <p>sean.vernon88@gmail.com</p>
         </ul>
       </FooterText>
     </FooterContainer>

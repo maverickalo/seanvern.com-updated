@@ -23,13 +23,17 @@ const AboutMe = () => {
           <img src={aboutimg} alt="Sean Vernon" />
         </AboutPicture>
         <AboutText>
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-          eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad
-          minim veniam, quis nostrud exercitation ullamco laboris nisi ut
-          aliquip ex ea commodo consequat. Duis aute irure dolor in
-          reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
-          pariatur. Excepteur sint occaecat cupidatat non proident, sunt in
-          culpa qui officia deserunt mollit anim id est laborum.
+          Living in Portland OR, I have been working with javascript frameworks
+          for about 2 years now. I have been working in IT for a little over 8
+          years and have my AWS Solutions Architect certification.
+          <p>
+            In my free time I enjoy riding my bike all around Portland, hiking
+            and going to concerts with my beautiful girlfriend Holly.{" "}
+          </p>
+          <p>
+            I love every aspect of coding and the creative side it opens up. It
+            has become bordline an obsession.{" "}
+          </p>
         </AboutText>
       </AboutTextContainer>
     </div>

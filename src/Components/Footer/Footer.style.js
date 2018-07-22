@@ -1,8 +1,11 @@
 import styled from "styled-components";
 import media from "../../Styles/media";
+import { fadeIn } from "../../Styles/Transitions";
 
 export const FooterContainer = styled.div`
   width: 50%;
+  animation: ${fadeIn} 0.5s linear;
+
   & h1 {
     font-size: 1.6rem;
     font-weight: 300;
@@ -17,6 +20,7 @@ export const FooterText = styled.div`
   display: flex;
   flex-direction: column;
   font-size: 1rem;
+
   ${media.tablet`text-align: center; padding: 0; margin: 0`};
   & ul {
     list-style: none;
@@ -26,5 +30,10 @@ export const FooterText = styled.div`
   li a {
     color: inherit;
     text-decoration: none;
+  }
+  p {
+    letter-spacing: 0.2rem;
+    font-weight: 300;
+    font-size: 1.2rem;
   }
 `;
